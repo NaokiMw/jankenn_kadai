@@ -103,7 +103,7 @@ def hoi
         face_select = gets.chomp.to_i
         puts "あなた" + $player_directions[face_select]
         puts "相手" + $cpu_directions
-        $result_direction = "パターンB" + "#{$player_directions[finger_select]}" + "#{$cpu_directions}"
+        $result_direction = "パターンB" + "#{$player_directions[face_select]}" + "#{$cpu_directions}"
         result()
         
         end
